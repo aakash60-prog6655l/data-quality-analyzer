@@ -1,18 +1,18 @@
-import './globals.css'
-
-export const metadata = {
-  title: 'Data Quality Analyzer',
-  description: 'Analyze CSV and Excel files for data quality issues',
-}
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  )
+export const metadata = {  
+  title: 'Data Quality Analyzer',  
+  description: 'Analyze CSV data quality',  
+}  
+  
+export default function RootLayout({  
+  children,  
+}: {  
+  children: React.ReactNode  
+}) {  
+  return (  
+    <html lang="en">  
+      <body style={{ margin: 0, fontFamily: 'Arial, sans-serif' }}>  
+        {children}  
+      </body>  
+    </html>  
+  )  
 }
